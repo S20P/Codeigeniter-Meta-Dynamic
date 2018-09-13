@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/codeigeniter-Project/Dynamic-MetaTags/';
+$config['base_url'] = 'http://localhost/codeigeniter-Project/Codeigeniter-Meta-Dynamic/';
 
 //  $config['base_url'] = 'https://shinephp.000webhostapp.com/';
 

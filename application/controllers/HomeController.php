@@ -23,4 +23,19 @@ class HomeController extends CI_Controller {
 			show_404();
 		}
 	}
+
+   public function updateview(){
+	$data['meta'] = array(
+		 "title"=>"Home Page Title change",
+		 "description"=>"Home Page Description change",
+		 "image"=>"assets/images/home.jpg",
+		 "slug"=>"home"
+			);
+
+ $this->load->view('templates/header',$data);
+ $this->load->view('pages/home');
+ $this->load->view('templates/footer');
+   }
+
+
 }

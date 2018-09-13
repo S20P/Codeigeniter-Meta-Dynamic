@@ -65,7 +65,6 @@ $route['about']='AboutController/view';
 $route['contact']='ContactController/view';
 
 
-$route['mail'] = 'email_controller';
-$route['mail/send'] = 'email_controller/send_mail';
+
 
 

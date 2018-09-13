@@ -17,13 +17,15 @@
     <meta property="og:image" content="<?php echo base_url().$meta['image'];?>"/>
     <meta property="fb:app_id" content="287859101811792" />
         <link rel="stylesheet" href="<?php echo base_url();?>assets/css/optimize.css">
+ <script src="<?php echo base_url();?>assets/js/jquery-3.3.1.min.js"></script>
+
        </head>
         <body>       
 <u>
 <li><a href="<?php echo base_url(); ?>home">Home</a></li>
 <li><a href="<?php echo base_url(); ?>about">About</a></li>
 <li><a href="<?php echo base_url(); ?>contact">Contact</a></li>
-<li><a href="<?php echo base_url(); ?>mail">E-mail</a></li>
+
 </u>
 
 <br />
